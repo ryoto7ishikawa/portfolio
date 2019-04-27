@@ -6,7 +6,7 @@
         <small class="d-block text-muted">Copyright &copy; 2019 Rorange. All Rights Reserved.</small>
         <small class="d-block mb-3 text-muted">Updated at {{updatedAtStr}}</small>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-12 col-md">
         <h5>
           <router-link to="/" class="text-muted">Rorange Portfolio</router-link>
         </h5>
