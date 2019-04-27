@@ -3,7 +3,8 @@
     <div class="row">
       <div class="col-12 col-md">
         <img class="mb-2" src="../assets/logo.png" alt width="48" height="48">
-        <small class="d-block mb-3 text-muted">Copyright &copy; 2019 Rorange. All Rights Reserved</small>
+        <small class="d-block text-muted">Copyright &copy; 2019 Rorange. All Rights Reserved.</small>
+        <small class="d-block mb-3 text-muted">Updated at {{updatedAtStr}}</small>
       </div>
       <div class="col-6 col-md">
         <h5>
@@ -27,3 +28,18 @@
     </div>
   </footer>
 </template>
+
+
+<script>
+import Vue from "vue";
+import moment from "moment";
+import { Constants } from "../libs";
+
+export default Vue.extend({
+  computed: {
+    updatedAtStr() {
+      return `${moment(Constants.updatedAt).format("YYYY/MM")}`;
+    }
+  }
+});
+</script>
