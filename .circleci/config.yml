@@ -1,0 +1,31 @@
+# iOS CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/ios-migrating-from-1-2/ for more details
+#
+version: 2
+
+jobs:
+  deploy-now:
+    docker:
+      - image: circleci/node:10-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+      - run: npm install now
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      - run: npx now -t ${ZEIT_TOKEN}
+      - run: npx now alias -t ${ZEIT_TOKEN}
+      - run: npx now rm rorange-portfolio --safe --yes -t ${ZEIT_TOKEN}
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - deploy-now
