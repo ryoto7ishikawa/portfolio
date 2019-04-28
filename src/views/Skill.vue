@@ -62,7 +62,7 @@
             <i class="fas fa-cogs"></i>
           </h2>
           <progressicon :val="2" iconsize="lg"/>
-          <b-card-text>サービスに応じた柔軟な機能</b-card-text>
+          <b-card-text>サービスに応じた多様な機能</b-card-text>
           <div slot="footer">
             <table class="table table-striped">
               <tbody>
@@ -91,7 +91,7 @@
             <i class="fas fa-server"></i>
           </h2>
           <progressicon :val="2" iconsize="lg"/>
-          <b-card-text>クラウドによるスケーラビリティ（小〜中規模）</b-card-text>
+          <b-card-text>クラウド・コンテナによるスケーラビリティ（小〜中規模）</b-card-text>
           <div slot="footer">
             <table class="table table-striped">
               <tbody>
@@ -107,11 +107,52 @@
                     <progressicon :val="1" iconsize="sm"/>
                   </td>
                 </tr>
+                <tr>
+                  <th scope="row">Docker</th>
+                  <td>
+                    <progressicon :val="2" iconsize="sm"/>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
         </b-card>
       </div>
+      <div class="col-sm-6 mb-3">
+        <b-card>
+          <h2>
+            Tool
+            <i class="fas fa-wrench"></i>
+          </h2>
+          <progressicon :val="3" iconsize="lg"/>
+          <b-card-text>プロジェクトの進行を加速</b-card-text>
+          <div slot="footer">
+            <table class="table table-striped">
+              <tbody>
+                <tr>
+                  <th scope="row">Slack</th>
+                  <td>
+                    <progressicon :val="4" iconsize="sm"/>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">GitHub</th>
+                  <td>
+                    <progressicon :val="2" iconsize="sm"/>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">CircleCI</th>
+                  <td>
+                    <progressicon :val="2" iconsize="sm"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </b-card>
+      </div>
+      <div class="w-100"></div>
       <div class="col-sm-6 mb-3">
         <b-card>
           <h2>
