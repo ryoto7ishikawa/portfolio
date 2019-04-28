@@ -20,7 +20,7 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: now --target production -t ${ZEIT_TOKEN}
+      - run: npx now --target production -t ${ZEIT_TOKEN}
       - run: npx now rm rorange-portfolio --safe --yes -t ${ZEIT_TOKEN}
 
 workflows:
