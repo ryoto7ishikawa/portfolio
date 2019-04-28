@@ -11,5 +11,6 @@
     "dest": "dist/index.html"
   }],
 
-  "public": true
+  "public": true,
+  "alias": "rorange-portfolio"
 }
