@@ -6,7 +6,7 @@
         <i class="fas fa-home"></i>
       </template>
       <b-card-text>
-        <strong>Rorange</strong>のポートフォリオサイトです．
+        <strong>Rorenge</strong>のポートフォリオサイトです．
       </b-card-text>
     </b-jumbotron>
     <div class="row">
@@ -17,7 +17,7 @@
               Profile
               <i class="fas fa-id-card"></i>
             </h2>
-            <b-card-text>Rorangeについて</b-card-text>
+            <b-card-text>Rorengeについて</b-card-text>
           </b-card>
         </router-link>
       </div>

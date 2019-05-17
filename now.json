@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "rorange-portfolio",
+  "name": "rorenge-portfolio",
   "builds": [{
     "src": "package.json",
     "use": "@now/static-build"
@@ -12,5 +12,5 @@
   }],
 
   "public": true,
-  "alias": "rorange-portfolio"
+  "alias": "rorenge-portfolio"
 }
