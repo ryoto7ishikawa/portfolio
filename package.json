@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "build": "webpack",
-    "now-build": "webpack",
+    "build": "webpack --mode=production",
+    "now-build": "webpack --mode=production",
     "watch": "webpack -w",
     "start": "webpack-dev-server"
   },
