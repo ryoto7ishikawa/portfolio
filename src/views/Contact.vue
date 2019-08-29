@@ -9,7 +9,7 @@
     <div class="row justify-content-md-center">
       <div class="col-sm-6 mb-3 text-left">
         <h2>Email</h2>
-        <b-form-input type="email" value="r7rorange@gmail.com"></b-form-input>
+        <b-form-input type="email" value="rorenge7@gmail.com"></b-form-input>
       </div>
     </div>
   </div>

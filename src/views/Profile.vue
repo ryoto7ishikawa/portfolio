@@ -7,9 +7,9 @@
       </template>
     </b-jumbotron>
     <div class="media">
-      <img class="mr-3" src="../assets/logo.png" alt="Rorange">
+      <img class="mr-3" src="../assets/logo.png" alt="Rorenge">
       <div class="media-body">
-        <h1>Rorange</h1>
+        <h1>Rorenge</h1>
         <b-form>
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">出身地</label>

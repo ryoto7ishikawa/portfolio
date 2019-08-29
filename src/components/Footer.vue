@@ -3,12 +3,12 @@
     <div class="row">
       <div class="col-12 col-md">
         <img class="mb-2" src="../assets/logo.png" alt width="48" height="48">
-        <small class="d-block text-muted">Copyright &copy; 2019 Rorange. All Rights Reserved.</small>
+        <small class="d-block text-muted">Copyright &copy; 2019 Rorenge. All Rights Reserved.</small>
         <small class="d-block mb-3 text-muted">Updated at {{updatedAtStr}}</small>
       </div>
       <div class="col-12 col-md">
         <h5>
-          <router-link to="/" class="text-muted">Rorange Portfolio</router-link>
+          <router-link to="/" class="text-muted">Rorenge Portfolio</router-link>
         </h5>
         <ul class="list-unstyled text-small">
           <li>
