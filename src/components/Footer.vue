@@ -1,8 +1,8 @@
 <template>
-  <footer class="pt-4 my-md-5 pt-md-5 border-top bg-light">
+  <footer class="pt-4 pt-md-5 border-top bg-light fixed-bottom">
     <div class="row">
       <div class="col-12 col-md">
-        <img class="mb-2" src="../assets/logo.png" alt width="48" height="48">
+        <img class="mb-2" src="../assets/logo.png" alt width="48" height="48" />
         <small class="d-block text-muted">Copyright &copy; 2019 Rorenge. All Rights Reserved.</small>
         <small class="d-block mb-3 text-muted">Updated at {{updatedAtStr}}</small>
       </div>

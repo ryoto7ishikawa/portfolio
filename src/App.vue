@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header />
     <section class="section">
       <b-container class="container">
-        <router-view/>
+        <router-view />
       </b-container>
     </section>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -30,5 +30,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+section {
+  margin-bottom: 15em;
+  @media (max-width: 767px) {
+    margin-bottom: 22rem;
+  }
 }
 </style>
