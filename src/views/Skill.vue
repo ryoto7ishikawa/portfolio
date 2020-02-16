@@ -171,7 +171,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">プロジェクトマネージャ試験（受験予定）</th>
+                  <th scope="row">AWS SAA</th>
                   <td>
                     <progressicon :val="3" iconsize="sm"/>
                   </td>
