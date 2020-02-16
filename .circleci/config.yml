@@ -15,13 +15,13 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-      - run: npm install now
+      - run: npm install now@16
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: npx now --target production -t ${ZEIT_TOKEN}
-      - run: npx now rm rorenge-portfolio --safe --yes -t ${ZEIT_TOKEN}
+      - run: npx now@16 --target production -t ${ZEIT_TOKEN}
+      - run: npx now@16 rm rorenge-portfolio --safe --yes -t ${ZEIT_TOKEN}
 
 workflows:
   version: 2
